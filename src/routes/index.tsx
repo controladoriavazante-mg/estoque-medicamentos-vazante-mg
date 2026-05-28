@@ -5,11 +5,8 @@ import {
   Download,
   Package,
   PackageX,
-  Pencil,
   Pill,
-  Plus,
   Search,
-  Trash2,
   Upload,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -24,29 +21,12 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
 import { toast } from "sonner";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
 import { useStockStore } from "@/lib/stock-store";
 import { getStatus, type StatusEstoque } from "@/lib/stock-types";
 import { exportToXlsx, parseEstoqueFile } from "@/lib/xlsx-io";
-import { MedicamentoDialog } from "@/components/medicamento-dialog";
 
 export const Route = createFileRoute("/")({
   head: () => ({
