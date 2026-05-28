@@ -53,7 +53,7 @@ function fmtNum(n: number | null | undefined, digits = 0) {
 }
 
 function Painel() {
-  const { data, replaceAll, upsertItem, removeItem } = useStockStore();
+  const { data, replaceAll } = useStockStore();
   const [query, setQuery] = useState("");
   const fileRef = useRef<HTMLInputElement>(null);
 
