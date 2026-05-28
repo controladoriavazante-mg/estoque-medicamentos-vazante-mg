@@ -16,10 +16,6 @@ const empty: Medicamento = {
   nome: "",
   unidade: "",
   estoque: 0,
-  consumo: null,
-  periodo: null,
-  tr: null,
-  pr: null,
 };
 
 export function MedicamentoDialog({ trigger, initial, onSave, title }: Props) {
@@ -27,12 +23,6 @@ export function MedicamentoDialog({ trigger, initial, onSave, title }: Props) {
   const [form, setForm] = useState<Medicamento>(initial ?? empty);
 
   const reset = () => setForm(initial ?? empty);
-
-  const num = (v: string): number | null => {
-    if (v === "") return null;
-    const n = Number(v.replace(",", "."));
-    return Number.isFinite(n) ? n : null;
-  };
 
   return (
     <Dialog
@@ -74,46 +64,6 @@ export function MedicamentoDialog({ trigger, initial, onSave, title }: Props) {
                 type="number"
                 value={form.estoque}
                 onChange={(e) => setForm({ ...form, estoque: Number(e.target.value) || 0 })}
-              />
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-3">
-            <div className="grid gap-1.5">
-              <Label htmlFor="consumo">Consumo</Label>
-              <Input
-                id="consumo"
-                type="number"
-                value={form.consumo ?? ""}
-                onChange={(e) => setForm({ ...form, consumo: num(e.target.value) })}
-              />
-            </div>
-            <div className="grid gap-1.5">
-              <Label htmlFor="periodo">Período (meses)</Label>
-              <Input
-                id="periodo"
-                type="number"
-                value={form.periodo ?? ""}
-                onChange={(e) => setForm({ ...form, periodo: num(e.target.value) })}
-              />
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-3">
-            <div className="grid gap-1.5">
-              <Label htmlFor="tr">Tempo de reposição (M)</Label>
-              <Input
-                id="tr"
-                type="number"
-                value={form.tr ?? ""}
-                onChange={(e) => setForm({ ...form, tr: num(e.target.value) })}
-              />
-            </div>
-            <div className="grid gap-1.5">
-              <Label htmlFor="pr">Período de ressup. (M)</Label>
-              <Input
-                id="pr"
-                type="number"
-                value={form.pr ?? ""}
-                onChange={(e) => setForm({ ...form, pr: num(e.target.value) })}
               />
             </div>
           </div>
