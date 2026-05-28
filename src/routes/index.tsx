@@ -44,14 +44,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { useStockStore } from "@/lib/stock-store";
-import {
-  calcCMM,
-  calcCobertura,
-  calcPontoRessuprimento,
-  calcQR,
-  getStatus,
-  type StatusEstoque,
-} from "@/lib/stock-types";
+import { getStatus, type StatusEstoque } from "@/lib/stock-types";
 import { exportToXlsx, parseEstoqueFile } from "@/lib/xlsx-io";
 import { MedicamentoDialog } from "@/components/medicamento-dialog";
 
@@ -71,10 +64,7 @@ export const Route = createFileRoute("/")({
 
 const statusInfo: Record<StatusEstoque, { label: string; cls: string; dot: string }> = {
   zerado: { label: "Zerado", cls: "bg-red-100 text-red-700 border-red-200", dot: "bg-red-500" },
-  critico: { label: "Crítico", cls: "bg-orange-100 text-orange-700 border-orange-200", dot: "bg-orange-500" },
-  baixo: { label: "Baixo", cls: "bg-yellow-100 text-yellow-800 border-yellow-200", dot: "bg-yellow-500" },
-  ok: { label: "Adequado", cls: "bg-emerald-100 text-emerald-700 border-emerald-200", dot: "bg-emerald-500" },
-  "sem-info": { label: "Sem parâmetro", cls: "bg-slate-100 text-slate-600 border-slate-200", dot: "bg-slate-400" },
+  "com-estoque": { label: "Com estoque", cls: "bg-emerald-100 text-emerald-700 border-emerald-200", dot: "bg-emerald-500" },
 };
 
 function fmtNum(n: number | null | undefined, digits = 0) {
@@ -223,10 +213,6 @@ function Painel() {
                     <TableHead className="min-w-[260px]">Medicamento</TableHead>
                     <TableHead>Unidade</TableHead>
                     <TableHead className="text-right">Estoque</TableHead>
-                    <TableHead className="text-right">CMM</TableHead>
-                    <TableHead className="text-right">Cobertura (m)</TableHead>
-                    <TableHead className="text-right">Ponto Ressup.</TableHead>
-                    <TableHead className="text-right">Qtd. Repor</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead className="w-[110px] text-right">Ações</TableHead>
                   </TableRow>
@@ -234,7 +220,7 @@ function Painel() {
                 <TableBody>
                   {filtered.length === 0 && (
                     <TableRow>
-                      <TableCell colSpan={9} className="py-10 text-center text-slate-500">
+                      <TableCell colSpan={5} className="py-10 text-center text-slate-500">
                         Nenhum medicamento encontrado.
                       </TableCell>
                     </TableRow>
@@ -242,10 +228,6 @@ function Painel() {
                   {filtered.map((m) => {
                     const status = getStatus(m);
                     const info = statusInfo[status];
-                    const cmm = calcCMM(m);
-                    const cob = calcCobertura(m);
-                    const pr = calcPontoRessuprimento(m);
-                    const qr = calcQR(m);
                     return (
                       <TableRow key={m.nome}>
                         <TableCell className="font-medium text-slate-900">
@@ -257,18 +239,6 @@ function Painel() {
                         <TableCell className="text-slate-600">{m.unidade || "—"}</TableCell>
                         <TableCell className="text-right font-semibold tabular-nums">
                           {fmtNum(m.estoque)}
-                        </TableCell>
-                        <TableCell className="text-right tabular-nums text-slate-600">
-                          {fmtNum(cmm, 1)}
-                        </TableCell>
-                        <TableCell className="text-right tabular-nums text-slate-600">
-                          {fmtNum(cob, 1)}
-                        </TableCell>
-                        <TableCell className="text-right tabular-nums text-slate-600">
-                          {fmtNum(pr)}
-                        </TableCell>
-                        <TableCell className="text-right tabular-nums text-slate-600">
-                          {fmtNum(qr)}
                         </TableCell>
                         <TableCell>
                           <Badge variant="outline" className={info.cls}>
@@ -333,11 +303,6 @@ function Painel() {
               </Table>
             </div>
           </div>
-
-          <p className="mt-4 text-xs text-slate-400">
-            CMM = Consumo médio mensal · Cobertura = meses estimados de estoque · Ponto de
-            ressuprimento = CMM × TR · Qtd. Repor = CMM × (TR + PR) − estoque atual.
-          </p>
         </main>
       </div>
     </TooltipProvider>
