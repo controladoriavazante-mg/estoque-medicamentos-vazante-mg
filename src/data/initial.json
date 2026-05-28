@@ -4,1307 +4,727 @@
     {
       "nome": "ÁCIDO ACETILSALICÍLICO 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 21580,
-      "consumo": 870,
-      "periodo": 4,
-      "tr": 1,
-      "pr": 2
+      "estoque": 21580
     },
     {
       "nome": "ACICLOVIR 200 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 9615,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 9615
     },
     {
       "nome": "ACICLOVIR CR. DERM",
       "unidade": "UNIDADE",
-      "estoque": 148,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 148
     },
     {
       "nome": "ÁCIDO FÓLICO 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 19660,
-      "consumo": 400,
-      "periodo": 3.8,
-      "tr": 1,
-      "pr": 2
+      "estoque": 19660
     },
     {
       "nome": "ACIDO FOLICO GOTAS",
       "unidade": "COMPRIMIDO",
-      "estoque": 196,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 196
     },
     {
       "nome": "ACIDO VALPROICO 250 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 11900,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 11900
     },
     {
       "nome": "AGULHA PARA CANETA DE INSULINA",
       "unidade": "UNIDADE",
-      "estoque": 19260,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 19260
     },
     {
       "nome": "ALBENDAZOL 40 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 398,
-      "consumo": 15500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 398
     },
     {
       "nome": "ALBENDAZOL 400 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2515,
-      "consumo": 13825,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2515
     },
     {
       "nome": "ALENDRONATO DE SÓDIO 70 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1048,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 1048
     },
     {
       "nome": "ALOPURINOL 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 11220,
-      "consumo": 400,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 11220
     },
     {
       "nome": "ALOPURINOL 300 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 8840,
-      "consumo": 5000,
-      "periodo": 8,
-      "tr": 1,
-      "pr": 2
+      "estoque": 8840
     },
     {
       "nome": "AMBROXOL 15 MG/5ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 724,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 724
     },
     {
       "nome": "AMBROXOL 30MG/5ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 430,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 430
     },
     {
       "nome": "AMIODARONA 200 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 7640,
-      "consumo": 700,
-      "periodo": 5.4,
-      "tr": 1,
-      "pr": 2
+      "estoque": 7640
     },
     {
       "nome": "AMITRIPTILINA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 40000,
-      "consumo": 800,
-      "periodo": 5.4,
-      "tr": 1,
-      "pr": 2
+      "estoque": 40000
     },
     {
       "nome": "AMOXICILINA 50 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 150,
-      "consumo": 6000,
-      "periodo": 2,
-      "tr": 1,
-      "pr": 2
+      "estoque": 150
     },
     {
       "nome": "AMOXICILINA 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 13000,
-      "consumo": 4000,
-      "periodo": 3,
-      "tr": 1,
-      "pr": 2
+      "estoque": 13000
     },
     {
       "nome": "AMOXICILINA+CLAVULANATO 50+12,5 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 410,
-      "consumo": 9000,
-      "periodo": 3,
-      "tr": 1,
-      "pr": 2
+      "estoque": 410
     },
     {
       "nome": "AMOXICILINA+CLAVULANATO 500 MG+125 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 864,
-      "consumo": 8000,
-      "periodo": 4.5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 864
     },
     {
       "nome": "ANLODIPINO 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 44300,
-      "consumo": 46000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 44300
     },
     {
       "nome": "ATENOLOL 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 72525,
-      "consumo": 600,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 72525
     },
     {
       "nome": "AZITROMICINA 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 3600,
-      "consumo": 17000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 3600
     },
     {
       "nome": "AZITROMICINA 600 MG SUSP. ORAL",
       "unidade": "COMPRIMIDO",
-      "estoque": 100,
-      "consumo": 400,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 100
     },
     {
       "nome": "BECLOMETASONA 250 MCG AEROSSOL ORAL",
       "unidade": "FRASCO",
-      "estoque": 18,
-      "consumo": 15000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 18
     },
     {
       "nome": "BECLOMETASONA 50 MCG AEROSSOL ORAL",
       "unidade": "FRASCO",
-      "estoque": 121,
-      "consumo": 37500,
-      "periodo": 3.5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 121
     },
     {
       "nome": "BECLOMETASONA 50 MCG SUSP. NASAL",
       "unidade": "FRASCO",
-      "estoque": 0,
-      "consumo": 80000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "BENZILPENICILINA BENZATINA 1.200.000 UI/FR",
       "unidade": "COMPRIMIDO",
-      "estoque": 50,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 50
     },
     {
       "nome": "BETAMETASONA (DIPROPIONATO + FOSFATO DISSÓDICO) 5+2 MG/ML SOL. INJ",
       "unidade": "UNIDADE",
-      "estoque": 571,
-      "consumo": 5000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 571
     },
     {
       "nome": "BIPERIDENO 2 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 18400,
-      "consumo": 150,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 18400
     },
     {
       "nome": "BISACODIL 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1460,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 1460
     },
     {
       "nome": "BROMOPRIDA 4 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 174,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 174
     },
     {
       "nome": "CANETA P/ INSULINA",
       "unidade": "UNIDADE",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "CARBAMAZEPINA 20 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 50,
-      "consumo": 70,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 50
     },
     {
       "nome": "CARBAMAZEPINA 200 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 24000,
-      "consumo": 50,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 24000
     },
     {
       "nome": "CARBONATO DE CÁLCIO 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": 100,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "CARBONATO DE LÍTIO 300 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 7380,
-      "consumo": 200,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 7380
     },
     {
       "nome": "CARVEDILOL 12,5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 15600,
-      "consumo": 5,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 15600
     },
     {
       "nome": "CARVEDILOL 3,125 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 27270,
-      "consumo": 450,
-      "periodo": 2,
-      "tr": 1,
-      "pr": 2
+      "estoque": 27270
     },
     {
       "nome": "CEFALEXINA 50 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 100,
-      "consumo": 17500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 100
     },
     {
       "nome": "CEFALEXINA 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 3000,
-      "consumo": 100000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 3000
     },
     {
       "nome": "CIPROFLOXACINO 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 10200,
-      "consumo": 26,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 10200
     },
     {
       "nome": "CLARITROMICINA 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 960,
-      "consumo": 32700,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 960
     },
     {
       "nome": "CLOMIPRAMINA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2000,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2000
     },
     {
       "nome": "CLONAZEPAM 2,5 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 850,
-      "consumo": 5300,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 850
     },
     {
       "nome": "CLORETO DE SÓDIO 9 MG/ML SPRAY NASAL",
       "unidade": "FRASCO",
-      "estoque": 354,
-      "consumo": 22000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 354
     },
     {
       "nome": "CLORPROMAZINA 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 4500,
-      "consumo": 22000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 4500
     },
     {
       "nome": "CLORPROMAZINA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 7600,
-      "consumo": 160,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 7600
     },
     {
       "nome": "CLORPROMAZINA 40 MG/ML GOTAS",
       "unidade": "FRASCO",
-      "estoque": 30,
-      "consumo": 18000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 30
     },
     {
       "nome": "CYCLOFEMINA INJ",
       "unidade": "COMPRIMIDO",
-      "estoque": 36,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 36
     },
     {
       "nome": "DEXAMETASONA 4 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2810,
-      "consumo": 1000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2810
     },
     {
       "nome": "DEXAMETASONA 1 MG/G CR. DERM",
       "unidade": "BISNAGA",
-      "estoque": 523,
-      "consumo": 7500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 523
     },
     {
       "nome": "DEXAMETASONA 1 MG/ML SUSP. OFT",
       "unidade": "UNIDADE",
-      "estoque": 14,
-      "consumo": 15000,
-      "periodo": 3,
-      "tr": 1,
-      "pr": 2
+      "estoque": 14
     },
     {
       "nome": "DEXCLORFENIRAMINA 0,4 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 315,
-      "consumo": 16000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 315
     },
     {
       "nome": "DEXCLORFENIRAMINA 2 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 14960,
-      "consumo": 1430,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 14960
     },
     {
       "nome": "DIAZEPAM 10 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 26970,
-      "consumo": 2400,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 26970
     },
     {
       "nome": "DIGOXINA 0,25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2460,
-      "consumo": 1140,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2460
     },
     {
       "nome": "DIPIRONA 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 47590,
-      "consumo": 56900,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 47590
     },
     {
       "nome": "DIPIRONA 500 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 799,
-      "consumo": 642,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 799
     },
     {
       "nome": "DIPIRONA + BUTILESCOPOLAMINA 250 + 10 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 5280,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 5280
     },
     {
       "nome": "DISPOSITIVO INTRAUTERINO",
       "unidade": "UNIDADE",
-      "estoque": 308,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 308
     },
     {
       "nome": "ENALAPRIL 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 16200,
-      "consumo": 3500,
-      "periodo": 2,
-      "tr": 1,
-      "pr": 2
+      "estoque": 16200
     },
     {
       "nome": "ESPIRONOLACTONA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 5250,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 5250
     },
     {
       "nome": "FENITOÍNA 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 7400,
-      "consumo": 100,
-      "periodo": 2,
-      "tr": 1,
-      "pr": 2
+      "estoque": 7400
     },
     {
       "nome": "FENOBARBITAL 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2900,
-      "consumo": 4700,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2900
     },
     {
       "nome": "FENOBARBITAL 40 MG/ML GOTAS",
       "unidade": "FRASCO",
-      "estoque": 20,
-      "consumo": 1000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 20
     },
     {
       "nome": "FERRIPOLIMALTOSE 100 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 42,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 42
     },
     {
       "nome": "FLUCONAZOL 150 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 938,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 938
     },
     {
       "nome": "FLUNARIZINA 10 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "FLUOXETINA 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 24000,
-      "consumo": 4500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 24000
     },
     {
       "nome": "FUROSEMIDA 40 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 50360,
-      "consumo": 400,
-      "periodo": 3.5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 50360
     },
     {
       "nome": "GLICAZIDA 30 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 310,
-      "consumo": 35,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 310
     },
     {
       "nome": "GLICOSÍMETRO",
       "unidade": "UNIDADE",
-      "estoque": 48,
-      "consumo": 1600,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 48
     },
     {
       "nome": "HALOPERIDOL 2 MG/ML GOTAS",
       "unidade": "FRASCO",
-      "estoque": 0,
-      "consumo": 12000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "HALOPERIDOL 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 8000,
-      "consumo": 39890,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 8000
     },
     {
       "nome": "HALOPERIDOL DECANOATO 50 MG/ML SOL. INJ",
       "unidade": "UNIDADE",
-      "estoque": 54,
-      "consumo": 40,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 54
     },
     {
       "nome": "HIDRALAZINA 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 9440,
-      "consumo": 25000,
-      "periodo": 2,
-      "tr": 1,
-      "pr": 2
+      "estoque": 9440
     },
     {
       "nome": "HIDRÓXIDO DE ALUMINIO 60 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 44,
-      "consumo": 20500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 44
     },
     {
       "nome": "IBUPROFENO 20 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 128,
-      "consumo": 150,
-      "periodo": 3.5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 128
     },
     {
       "nome": "IBUPROFENO 600 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1890,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 1890
     },
     {
       "nome": "INSULINA HUMANA NPH  FRASCO",
       "unidade": "FRASCO",
-      "estoque": 279,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 279
     },
     {
       "nome": "INSULINA HUMANA NPH CARPULE",
       "unidade": "CARPULE",
-      "estoque": 672,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 672
     },
     {
       "nome": "INSULINA HUMANA REGULAR FRASCO",
       "unidade": "FRASCO",
-      "estoque": 45,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 45
     },
     {
       "nome": "INSULINA HUMANA REGULAR CARPULE",
       "unidade": "CARPULE",
-      "estoque": 110,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 110
     },
     {
       "nome": "INSULINA HUMANA REGULAR CANETA",
       "unidade": "CANETA",
-      "estoque": 111,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 111
     },
     {
       "nome": "ISOSSORBIDA 40 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 2500,
-      "consumo": 2950,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2500
     },
     {
       "nome": "IVERMECTINA 6 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1016,
-      "consumo": 25000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 1016
     },
     {
       "nome": "LACTULOSE 667 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 308,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 308
     },
     {
       "nome": "LANCETA AUTOMÁTICA",
       "unidade": "UNIDADE",
-      "estoque": 16050,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 16050
     },
     {
       "nome": "LANCETAS MANUAL",
       "unidade": "UNIDADE",
-      "estoque": 15690,
-      "consumo": 50000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 15690
     },
     {
       "nome": "LEVODOPA+BENSERAZIDA 100+25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": 1,
-      "periodo": 3,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "LEVODOPA+BENSERAZIDA 200+50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "LEVOFLOXACINO 750 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 3822,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 3822
     },
     {
       "nome": "LEVONORGESTREL + ETINILESTRADIOL 0,15+0,03 MG( CICLO 21)",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": 95,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "LEVOTIROXINA 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 9000,
-      "consumo": 0,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 9000
     },
     {
       "nome": "LEVOTIROXINA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 19200,
-      "consumo": 22800,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 19200
     },
     {
       "nome": "LEVOTIROXINA 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 24650,
-      "consumo": 30000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 24650
     },
     {
       "nome": "LORATADINA 1 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 151,
-      "consumo": 31700,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 151
     },
     {
       "nome": "LORATADINA 10 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 39228,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 39228
     },
     {
       "nome": "MEDROXIPROGESTERONA SUSP. INJ",
       "unidade": "UNIDADE",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "METILDOPA 250 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 3030,
-      "consumo": 7000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 3030
     },
     {
       "nome": "METOPROLOL 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": 7,
-      "periodo": 3,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "METOPROLOL 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 12540,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 12540
     },
     {
       "nome": "METRONIDAZOL 400 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "METRONIDAZOL 250 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 7800,
-      "consumo": 4000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 7800
     },
     {
       "nome": "MICONAZOL CR. DERM",
       "unidade": "BISNAGA",
-      "estoque": 348,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 348
     },
     {
       "nome": "MICONAZOL 20 MG/G CR. VAG",
       "unidade": "COMPRIMIDO",
-      "estoque": 223,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 223
     },
     {
       "nome": "NEOMICINA+BACITRACINA POMADA",
       "unidade": "BISNAGA",
-      "estoque": 396,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 396
     },
     {
       "nome": "NIFEDIPINO 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 15840,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 15840
     },
     {
       "nome": "NIMESULIDA 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1752,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 1752
     },
     {
       "nome": "NITROFURANTOÍNA 100 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1120,
-      "consumo": 10000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 1120
     },
     {
       "nome": "NORETISTERONA + ESTRADIOL 50+5 MG/ML SOL. INJ",
       "unidade": "COMPRIMIDO",
-      "estoque": 430,
-      "consumo": 131,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 430
     },
     {
       "nome": "NORETISTERONA 0,35 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1085,
-      "consumo": 4000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 1085
     },
     {
       "nome": "NORTRIPTILINA 25 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 11000,
-      "consumo": 1500,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 11000
     },
     {
       "nome": "NORTRIPTILINA 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 12450,
-      "consumo": 4000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 12450
     },
     {
       "nome": "OMEPRAZOL 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 46984,
-      "consumo": 150000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 46984
     },
     {
       "nome": "ONDASETRONA 8 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 17840,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 17840
     },
     {
       "nome": "PARACETAMOL 200 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 649,
-      "consumo": 683,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 649
     },
     {
       "nome": "PARACETAMOL 500 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 14920,
-      "consumo": 60000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 14920
     },
     {
       "nome": "PERMETRINA 5% LOÇÃO",
       "unidade": "UNIDADE",
-      "estoque": 134,
-      "consumo": 100,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 134
     },
     {
       "nome": "PREDNISOLONA 3 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 582,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 582
     },
     {
       "nome": "PREDNISOLONA 1 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 34,
-      "consumo": 650,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 34
     },
     {
       "nome": "PREDNISONA 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 17900,
-      "consumo": 10000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 17900
     },
     {
       "nome": "PREDNISONA 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 16460,
-      "consumo": 7600,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 16460
     },
     {
       "nome": "PREGABALINA 50 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1980,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 1980
     },
     {
       "nome": "SAIS PARA REIDRATAÇÃO ORAL",
       "unidade": "UNIDADE",
-      "estoque": 2354,
-      "consumo": 1000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 2354
     },
     {
       "nome": "SALBUTAMOL 100 MCG/ DOSE AEROSSOL ORAL",
       "unidade": "UNIDADE",
-      "estoque": 111,
-      "consumo": 130,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 111
     },
     {
       "nome": "SERINGAS PARA INSULINA 100 UI",
       "unidade": "UNIDADE",
-      "estoque": 10560,
-      "consumo": null,
-      "periodo": null,
-      "tr": 1,
-      "pr": 2
+      "estoque": 10560
     },
     {
       "nome": "SIMETICONA 75 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 371,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 371
     },
     {
       "nome": "SINVASTATINA 10 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 6240,
-      "consumo": 10000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 6240
     },
     {
       "nome": "SINVASTATINA 20 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 52140,
-      "consumo": 40000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 52140
     },
     {
       "nome": "SINVASTATINA 40 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 20460,
-      "consumo": 20000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 20460
     },
     {
       "nome": "SULFAMETOXAZOL+TRIMETOPRIMA 40+8 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 0,
-      "consumo": 170,
-      "periodo": 10,
-      "tr": 1,
-      "pr": 2
+      "estoque": 0
     },
     {
       "nome": "SULFAMETOXAZOL+TRIMETOPRIMA 400+80 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 9580,
-      "consumo": 1700,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 9580
     },
     {
       "nome": "SULFADIAZINA DE PRATA POMADA",
       "unidade": "COMPRIMIDO",
-      "estoque": 240,
-      "consumo": 27000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 240
     },
     {
       "nome": "SULFATO FERROSO 40 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 29290,
-      "consumo": 27,
-      "periodo": 6,
-      "tr": 1,
-      "pr": 2
+      "estoque": 29290
     },
     {
       "nome": "SULF. FERROSO 125 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 24,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 24
     },
     {
       "nome": "TIRA PARA MEDIÇÃO GLICEMIA",
       "unidade": "UNIDADE",
-      "estoque": 32600,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 32600
     },
     {
       "nome": "VALPROATO DE SÓDIO 50 MG/ML",
       "unidade": "COMPRIMIDO",
-      "estoque": 50,
-      "consumo": 6000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 50
     },
     {
       "nome": "VARFARINA SÓDICA 5 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 13700,
-      "consumo": 5000,
-      "periodo": 5,
-      "tr": 1,
-      "pr": 2
+      "estoque": 13700
     },
     {
       "nome": "VERAPAMIL 80 MG",
       "unidade": "COMPRIMIDO",
-      "estoque": 1110,
-      "consumo": null,
-      "periodo": null,
-      "tr": 0.2,
-      "pr": 0.2
+      "estoque": 1110
     },
     {
       "nome": "NÃO CONSTA NA PLANILHA OS MEDICAMENTOS",
       "unidade": "",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "ESTRATÉGICOS E ESPECIALIZADOS( ALTO CUSTO) E PROGRAMA DE COMBATE AO TABAGISMO",
       "unidade": "",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "Lilianne Machado de Azevedo e Thábata Cristine Cortes Almeida",
       "unidade": "",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     },
     {
       "nome": "Farmacêuticas -  Farmácia de Minas Vazante",
       "unidade": "",
-      "estoque": 0,
-      "consumo": null,
-      "periodo": null,
-      "tr": null,
-      "pr": null
+      "estoque": 0
     }
   ]
 }

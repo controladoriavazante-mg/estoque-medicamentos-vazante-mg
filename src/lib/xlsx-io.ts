@@ -1,6 +1,5 @@
 import * as XLSX from "xlsx";
 import type { EstoqueData, Medicamento } from "./stock-types";
-import { calcCMM, calcCobertura, calcPontoRessuprimento, calcQR } from "./stock-types";
 
 function num(v: unknown): number | null {
   if (v === null || v === undefined || v === "") return null;
@@ -11,7 +10,6 @@ function num(v: unknown): number | null {
 export async function parseEstoqueFile(file: File): Promise<EstoqueData> {
   const buf = await file.arrayBuffer();
   const wb = XLSX.read(buf, { type: "array" });
-  // Prefer sheet that looks like the inventory; fallback first sheet
   const sheetName =
     wb.SheetNames.find((s) => s.toUpperCase().includes("ESTOQUE")) ?? wb.SheetNames[0];
   const ws = wb.Sheets[sheetName];
@@ -44,10 +42,6 @@ export async function parseEstoqueFile(file: File): Promise<EstoqueData> {
       nome,
       unidade: r[1] ? String(r[1]).trim() : "",
       estoque: num(r[2]) ?? 0,
-      consumo: num(r[3]),
-      periodo: num(r[4]),
-      tr: num(r[5]),
-      pr: num(r[6]),
     });
   }
 
@@ -63,14 +57,6 @@ export function exportToXlsx(items: Medicamento[], filename = "estoque-filtrado.
     Medicamento: m.nome,
     Unidade: m.unidade,
     "Estoque atual": m.estoque,
-    Consumo: m.consumo ?? "",
-    "Período (M)": m.periodo ?? "",
-    "TR (M)": m.tr ?? "",
-    "PR (M)": m.pr ?? "",
-    CMM: calcCMM(m)?.toFixed(2) ?? "",
-    "Cobertura (M)": calcCobertura(m)?.toFixed(1) ?? "",
-    "Ponto Ressup.": calcPontoRessuprimento(m)?.toFixed(0) ?? "",
-    "Qtd. Reposição": calcQR(m) ?? "",
   }));
   const ws = XLSX.utils.json_to_sheet(rows);
   const wb = XLSX.utils.book_new();
