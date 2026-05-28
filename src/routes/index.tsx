@@ -5,11 +5,8 @@ import {
   Download,
   Package,
   PackageX,
-  Pencil,
   Pill,
-  Plus,
   Search,
-  Trash2,
   Upload,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -24,29 +21,12 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
 import { toast } from "sonner";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
 import { useStockStore } from "@/lib/stock-store";
 import { getStatus, type StatusEstoque } from "@/lib/stock-types";
 import { exportToXlsx, parseEstoqueFile } from "@/lib/xlsx-io";
-import { MedicamentoDialog } from "@/components/medicamento-dialog";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -73,7 +53,7 @@ function fmtNum(n: number | null | undefined, digits = 0) {
 }
 
 function Painel() {
-  const { data, replaceAll, upsertItem, removeItem } = useStockStore();
+  const { data, replaceAll } = useStockStore();
   const [query, setQuery] = useState("");
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -165,20 +145,6 @@ function Painel() {
               />
             </div>
             <div className="flex flex-wrap gap-2">
-              <input
-                ref={fileRef}
-                type="file"
-                accept=".xlsx,.xls"
-                className="hidden"
-                onChange={(e) => {
-                  const f = e.target.files?.[0];
-                  if (f) handleImport(f);
-                  e.target.value = "";
-                }}
-              />
-              <Button variant="outline" onClick={() => fileRef.current?.click()}>
-                <Upload className="mr-2 h-4 w-4" /> Importar Excel
-              </Button>
               <Button
                 variant="outline"
                 onClick={() => exportToXlsx(filtered)}
@@ -186,17 +152,6 @@ function Painel() {
               >
                 <Download className="mr-2 h-4 w-4" /> Exportar
               </Button>
-              <MedicamentoDialog
-                onSave={(m) => {
-                  upsertItem(m);
-                  toast.success("Medicamento salvo.");
-                }}
-                trigger={
-                  <Button>
-                    <Plus className="mr-2 h-4 w-4" /> Novo
-                  </Button>
-                }
-              />
             </div>
           </div>
 
@@ -214,13 +169,12 @@ function Painel() {
                     <TableHead>Unidade</TableHead>
                     <TableHead className="text-right">Estoque</TableHead>
                     <TableHead>Status</TableHead>
-                    <TableHead className="w-[110px] text-right">Ações</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {filtered.length === 0 && (
                     <TableRow>
-                      <TableCell colSpan={5} className="py-10 text-center text-slate-500">
+                      <TableCell colSpan={4} className="py-10 text-center text-slate-500">
                         Nenhum medicamento encontrado.
                       </TableCell>
                     </TableRow>
@@ -245,57 +199,6 @@ function Painel() {
                             {info.label}
                           </Badge>
                         </TableCell>
-                        <TableCell className="text-right">
-                          <div className="flex justify-end gap-1">
-                            <MedicamentoDialog
-                              initial={m}
-                              onSave={(updated, original) => {
-                                upsertItem(updated, original);
-                                toast.success("Medicamento atualizado.");
-                              }}
-                              trigger={
-                                <Tooltip>
-                                  <TooltipTrigger asChild>
-                                    <Button variant="ghost" size="icon" className="h-8 w-8">
-                                      <Pencil className="h-4 w-4" />
-                                    </Button>
-                                  </TooltipTrigger>
-                                  <TooltipContent>Editar</TooltipContent>
-                                </Tooltip>
-                              }
-                            />
-                            <AlertDialog>
-                              <AlertDialogTrigger asChild>
-                                <Button
-                                  variant="ghost"
-                                  size="icon"
-                                  className="h-8 w-8 text-red-600 hover:bg-red-50 hover:text-red-700"
-                                >
-                                  <Trash2 className="h-4 w-4" />
-                                </Button>
-                              </AlertDialogTrigger>
-                              <AlertDialogContent>
-                                <AlertDialogHeader>
-                                  <AlertDialogTitle>Excluir medicamento?</AlertDialogTitle>
-                                  <AlertDialogDescription>
-                                    Esta ação removerá <strong>{m.nome}</strong> do estoque.
-                                  </AlertDialogDescription>
-                                </AlertDialogHeader>
-                                <AlertDialogFooter>
-                                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                                  <AlertDialogAction
-                                    onClick={() => {
-                                      removeItem(m.nome);
-                                      toast.success("Medicamento removido.");
-                                    }}
-                                  >
-                                    Excluir
-                                  </AlertDialogAction>
-                                </AlertDialogFooter>
-                              </AlertDialogContent>
-                            </AlertDialog>
-                          </div>
-                        </TableCell>
                       </TableRow>
                     );
                   })}
@@ -303,7 +206,34 @@ function Painel() {
               </Table>
             </div>
           </div>
+
+          {/* Aviso */}
+          <div className="mt-8 rounded-lg border border-slate-200 bg-white p-4 text-center text-sm font-semibold uppercase tracking-wide text-slate-700">
+            Não consta na relação os medicamentos estratégicos e especializados (alto custo) e programa de combate ao tabagismo
+          </div>
         </main>
+
+        {/* Botão de importar discreto */}
+        <input
+          ref={fileRef}
+          type="file"
+          accept=".xlsx,.xls"
+          className="hidden"
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            if (f) handleImport(f);
+            e.target.value = "";
+          }}
+        />
+        <button
+          type="button"
+          aria-label="Importar planilha"
+          title="Importar planilha"
+          onClick={() => fileRef.current?.click()}
+          className="fixed bottom-3 right-3 z-50 rounded-md p-2 text-slate-400/30 opacity-30 transition hover:bg-slate-100 hover:text-slate-600 hover:opacity-100 focus:opacity-100"
+        >
+          <Upload className="h-4 w-4" />
+        </button>
       </div>
     </TooltipProvider>
   );
