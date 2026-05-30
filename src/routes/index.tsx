@@ -91,7 +91,7 @@ function Painel() {
         <header className="border-b bg-white">
           <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-start gap-3">
-              <div className="rounded-lg bg-emerald-600 p-2 text-white">
+              <div className="rounded-lg p-2 text-white bg-cyan-600">
                 <Pill className="h-6 w-6" />
               </div>
               <div>
