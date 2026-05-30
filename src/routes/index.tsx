@@ -31,7 +31,7 @@ import { exportToXlsx, parseEstoqueFile } from "@/lib/xlsx-io";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Painel de Estoque - Assistência Farmacêutica" },
+      { title: "Painel de Estoque de Medicamentos - Assistência Farmacêutica Municipal" },
       {
         name: "description",
         content:
@@ -96,10 +96,11 @@ function Painel() {
               </div>
               <div>
                 <h1 className="text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
-                  Painel de Estoque — Assistência Farmacêutica
+                  Painel de Estoque de Medicamentos — Assistência Farmacêutica Municipal
                 </h1>
-                <p className="text-sm text-slate-500">
-                  Monitoramento do estoque da Central de Abastecimento Farmacêutico
+                <p className="whitespace-pre-line text-sm text-slate-500">
+                  Monitoramento do estoque da Central de Abastecimento Farmacêutico{"\n"}
+                  Prefeitura Municipal de Vazante - Farmácia de Minas
                 </p>
               </div>
             </div>
