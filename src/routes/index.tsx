@@ -230,7 +230,7 @@ function Painel() {
           aria-label="Importar planilha"
           title="Importar planilha"
           onClick={() => fileRef.current?.click()}
-          className="fixed bottom-3 right-3 z-50 rounded-md p-2 text-slate-400/30 opacity-30 transition hover:bg-slate-100 hover:text-slate-600 hover:opacity-100 focus:opacity-100"
+          className="fixed bottom-3 left-3 z-50 rounded-md p-2 text-slate-400/30 opacity-30 transition hover:bg-slate-100 hover:text-slate-600 hover:opacity-100 focus:opacity-100"
         >
           <Upload className="h-4 w-4" />
         </button>
